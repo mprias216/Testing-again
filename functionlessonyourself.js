@@ -7,7 +7,7 @@ const operations = {
 	multiplication: '*',
 	division: '/',
 	subtraction: '-',
-	addition: '+';
+	addition: '+'
 }
 
 // local approach - pure functions
