@@ -2,37 +2,35 @@
 let x = 5;
 let y = 4;
 
-// introducing math operations
-const operations = {
-	multiplication: '*',
-	division: '/',
-	subtraction: '-',
-	addition: '+'
+// Anonymous function
+const getMultiply = function(x, y) {
+	return x * y;
 }
 
-// local approach - pure functions
-function getMultiply(x, y) {
-	return x + muplication + y;
-}
-
-multiplicatonProblem(x, y);
-
-function getDivide(x, y) {
-	return x + division + y;
+const getDivide = function(x, y) {
+	return x / y;
 }
 
 getMultiply();
 getDivide();
-getAdd();
-getSubtract();
 
-//global approach - nonpure functions
-function getAdd() {
-	return operation.addition;
+// --- Other Scenario --- //
+const dayinfo = {
+	day: 'Thursday',
+	specific: 'Afternoon',
+	start: 5,
+	end: 7,
+	virtual: true
 }
 
-function getSubtract() {
-	return operation.subtraction + " that's ";
+// Named Function
+function schedule(day, specific) {
+	return day + " " + specific + ': ' + ' HITT Program';
 }
 
-//method
+
+
+// Method
+function time() {
+	return this.day + " " + this.specific;
+}
