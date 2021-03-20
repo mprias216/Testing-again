@@ -47,3 +47,4 @@ function wrongChoice() {
 if (choice == 0) {
 	document.querySelectorAll(getElements);
 }
+
